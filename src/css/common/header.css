@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.header {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+}
+.header .header-con {
+  flex: 0 1 1600px;
+  margin: 0 auto;
+}
+.header .header-con .nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 3vh 0;
+  box-sizing: border-box;
+}
+
+.header .header-con .title {
+  position: absolute;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+/* .header .header-con .title h1 a{
+} */
+
+.header .header-con .nav > ul {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header .header-con .nav > ul > li {
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+.header .header-con .nav > ul > li.cart {
+  position: relative;
+}
+
+.header .header-con .nav > ul > li.cart > span {
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+
+  position: absolute;
+  right: -3px;
+  top: -5px;
+
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.header .gnb {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1vh 0;
+  box-sizing: border-box;
+}
+
+.header .gnb > ul {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 1vmin;
+  box-sizing: border-box;
+
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+.header .gnb > ul > li {
+  padding: 5px 0vmin;
+}
+
+.header .gnb > ul > li a {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header .gnb > ul > li a.active {
+  padding: 8px;
+
+  border-radius: 12px;
+  color: #000000; /* 와인 색상 */
+  font-weight: bold;
+  background-color: #cccccc;
+}
+
+@media (max-width: 450px) {
+  .header .header-con .nav .title {
+    left: 20%;
+  }
+}

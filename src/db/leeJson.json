@@ -1,0 +1,340 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Bacardi Gold Rum",
+      "price": 23000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V1.png",
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years",
+      "information": "헤비 럼과 라이트 럼의 중간 정도로 캐러멜 색소로 착색한 럼이다.\n발효 기간은 약 5~9일 정도이며, 주요 생산지는 도미니카(Dominica), 가나(Guiana) 등이다."
+    },
+    {
+      "id": "2",
+      "name": "Bombay",
+      "price": 32000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V2.png",
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "3",
+      "name": "Grey Goose",
+      "price": 58000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V7.png",
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "4",
+      "name": "Kahlua",
+      "price": 28000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V4.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "5",
+      "name": "Malibu",
+      "price": 26000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V5.png",
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "6",
+      "name": "Bacardi Mojito",
+      "price": 24000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V6.png",
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "7",
+      "name": "Absolute Vodka",
+      "price": 27000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V3.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "8",
+      "name": "X-Rated",
+      "price": 54000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V8.png",
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "9",
+      "name": "JagerMeister",
+      "price": 39000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V9.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "10",
+      "name": "Tequila",
+      "price": 29000,
+      "categories": "Vodka",
+      "img": "/images/liquor/Vodka/V10.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "40%",
+      "till": "5 Years"
+    },
+    {
+      "id": "11",
+      "name": "Dominio de pingus",
+      "price": 230000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W1.png",
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "12",
+      "name": "2021Concha_Y",
+      "price": 290000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W2.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "13",
+      "name": "Dom Perignon Luminous",
+      "price": 550000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W3.png",
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "14",
+      "name": "Montes_Alpha M",
+      "price": 145000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W4.png"
+    },
+    {
+      "id": "15",
+      "name": "Sassicaia 2014",
+      "price": 530000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W5.png",
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "16",
+      "name": "Sena 2018",
+      "price": 260000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W6.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "17",
+      "name": "NV Armand de brignac",
+      "price": 530000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W7.png",
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "18",
+      "name": "Armand de brignac",
+      "price": 2300000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W8.png",
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "19",
+      "name": "Antinori Tignanello",
+      "price": 380000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W9.png",
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "20",
+      "name": "Penfolds Grange",
+      "price": 1237000,
+      "categories": "Wine",
+      "img": "/images/liquor/Wine/W10.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "12%",
+      "till": "5 Years"
+    },
+    {
+      "id": "21",
+      "name": "Glenfiddich 18Y",
+      "price": 190000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh1.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "22",
+      "name": "Royal Salute 21Y",
+      "price": 213000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh2.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "23",
+      "name": "Ballantine's 17Y",
+      "price": 115000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh3.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "24",
+      "name": "Ballantine's 21Y",
+      "price": 183000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh4.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "25",
+      "name": "Ballantine's 30Y",
+      "price": 540000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh5.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "26",
+      "name": "Chivas Regal 18Y",
+      "price": 125000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh6.png",
+      "isBest": true,
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "27",
+      "name": "Jack Daniels",
+      "price": 40000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh7.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "28",
+      "name": "Johnnie Walker Black",
+      "price": 44000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh8.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "29",
+      "name": "Johnnie Walker Blue",
+      "price": 270000,
+      "categories": "Whiskey",
+      "img": "/images/liquor/Whiskey/Wh9.png",
+      "from": "대한민국",
+      "alc": "38%",
+      "till": "5 Years"
+    },
+    {
+      "id": "30",
+      "name": "Premiun Wine Glass",
+      "price": 18900,
+      "categories": "Accessories",
+      "img": "/images/Accessories/18900 Premium Wine glass.jpg",
+      "from": "대한민국"
+    },
+    {
+      "id": "31",
+      "name": "Wine Opener",
+      "price": 34800,
+      "categories": "Accessories",
+      "img": "/images/Accessories/34800 Wine opener.jpg",
+      "from": "대한민국"
+    },
+    {
+      "id": "32",
+      "name": "Premium Wine Opener",
+      "price": 99000,
+      "categories": "Accessories",
+      "img": "/images/Accessories/99000 Wine opener.jpg",
+      "from": "대한민국"
+    },
+    {
+      "id": "33",
+      "name": "Tequila shots",
+      "price": 1400,
+      "categories": "Accessories",
+      "img": "/images/Accessories/Tequila shot 1400.jpg",
+      "from": "대한민국"
+    },
+    {
+      "id": "34",
+      "name": "Tequila shot holder",
+      "price": 14800,
+      "categories": "Accessories",
+      "img": "/images/Accessories/Tequila shot holder.jpg",
+      "from": "대한민국"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+.scroll {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 10;
+
+}
+.scroll-top1{
+  scroll-margin-top: 150px;
+}
+.scroll-top2{
+  scroll-margin-top: 160px;  
+}
+.detail-scroll{
+  scroll-margin-top: 160px;  
+}
+.scroll button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.scroll button:hover {
+  background: #555;
+}
+
+@media (max-width: 450px){
+  
+  .scroll-top1{
+    scroll-margin-top: 130px;
+    
+  }
+  .scroll-top2{
+    scroll-margin-top: 150px;
+    
+  }
+  .detail-scroll{
+    scroll-margin-top: 200px;  
+  }
+  .scroll button {
+    padding: 5px 11px;
+  }
+  
+}

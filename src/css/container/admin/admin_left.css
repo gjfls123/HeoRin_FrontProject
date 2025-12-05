@@ -1,0 +1,178 @@
+/* admin - header */
+.admin-header{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+  border-bottom: 1px solid;
+  padding: 8px 0 19px 0;
+  box-sizing: border-box;
+}
+
+.admin-header .admin-header-con {
+  width: 100%;
+  flex: 0 1 1600px;
+  align-items: center;
+}
+.admin-header .admin-header-con ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 1px solid; */
+}
+.admin-header .admin-header-con ul li{
+  width: auto;
+  height: auto;
+  
+  padding: 5px;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+
+
+/* admin - left */
+
+.left{
+  /* width: 261px; */
+  flex: 0 0 261px;
+  height: 100vh;
+  
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.left .left-con{
+  width: 100%;
+  height: inherit;
+
+  display: flex;
+  justify-content: center;
+
+  padding: 0 7px;
+  box-sizing: border-box;
+  
+}
+.left .left-con ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+  text-align: center;
+  font-size: 30px;
+
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+.c-ul{
+  background-color: gainsboro !important;
+}
+
+.left .left-con ul li:first-child{
+  display: block; 
+  gap: 0;
+  padding: 0; 
+  border: none; 
+  width: auto; 
+}
+
+/* .left .left-con ul li:nth-child(2) {
+margin-top: -34px;
+ 위로 당겨서 gap 없앰
+} */
+
+.left .left-con ul li{
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 0.9rem 0.5rem;
+  border: 1px solid;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.left .left-con ul li:not(:first-child) img{
+  width: 48px;
+  height: 48px;
+}
+
+@media (max-width: 450px) {
+  .admin-header {
+    font-size: 10px; 
+    width: 100%;
+    padding: 8px 0;
+  }
+  
+  .left {
+    /* margin-top: 69px; */
+    /* width: 11%; */
+    flex: 0 0 12%;
+    
+  }
+  
+  .left .left-con ul {
+    font-size: 8px;     
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+  }
+  .left .left-con ul li{
+    /* flex:0 1 100px; */
+    /* width: 100px; */
+    padding: 8px 0.5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: gainsboro;
+    border: 1px solid gainsboro;
+  }
+  
+  .left .left-con ul li:not(:first-child) img {
+    display: none;
+  }
+  .left .left-con ul li:first-child{
+    height: 50px;
+    width: 38.4px;
+    padding: 0 !important;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: url(/public/images/mLogo.png)no-repeat 50% /cover;
+  }
+  .left .left-con ul li:first-child a{
+    display: block;
+    width: 100%;
+  }
+  .left .left-con ul li:first-child img {
+    width:100% ;
+    height: auto;
+    display: none;
+    object-fit: contain;
+    /* height: 50px; */
+  }
+  .c-ul{
+    background-color: darkgray;
+    color: white;
+    
+  }
+
+}

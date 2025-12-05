@@ -1,0 +1,127 @@
+.order-payment-page {
+  width: 100%;
+  height: 100vh;
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.order-payment-page .order-payment-page-con {
+  min-height: 519px;
+  flex: 1;
+  /* border: 1px solid #ccc; */
+  box-sizing: border-box;
+}
+
+.order-payment-page-con .order-payment-title {
+  height: 60px;
+
+  background-color: rgb(191, 193, 193);
+
+  display: flex;
+  padding: 16px;
+  box-sizing: border-box;
+
+  align-items: center;
+}
+
+.order-payment-page-con .order-payment-title h2 {
+  font-size: 20px;
+}
+
+.order-payment-page-con > table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.order-payment-page-con > table > th {
+  padding: 7px;
+  box-sizing: border-box;
+
+  background-color: #ccc;
+}
+
+.order-payment-page-con > table > th.orderDetails {
+  width: 80px;
+}
+
+.order-payment-page-con > table > tr > td.select > select {
+  border: 0;
+  padding: 7px;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+  background-color: #f0f0f0;
+  font-weight: 500;
+}
+
+.order-payment-page-con > table > tr > td {
+  text-align: center;
+
+  padding: 5px;
+  box-sizing: border-box;
+
+  font-size: 15px;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.order-payment-page-con > table > tr > td.button {
+  background-color: #000;
+  color: #ffffff;
+}
+
+.order-payment-page .pageIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 15px;
+  box-sizing: border-box;
+
+  gap: 10px;
+}
+
+.order-payment-page .pageIndex > button {
+  padding: 2px 4px;
+  border: 0;
+  background-color: #fff;
+
+  font-size: 16px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .order-payment-page {
+    padding: 6px;
+  }
+
+  .order-payment-page-con .order-payment-title h2 {
+    font-size: 11px;
+  }
+  .order-payment-page-con > table {
+    flex: 1;
+  }
+
+  .order-payment-page-con > table > th {
+    font-size: 10px;
+  }
+
+  .order-payment-page-con > table > tr > td {
+    font-size: 10px;
+  }
+
+  .order-payment-page-con > table > tr > td.select > select {
+    width: 50px;
+  }
+
+  .order-payment-page-con > table > th.orderDetails {
+    width: 55px;
+  }
+}

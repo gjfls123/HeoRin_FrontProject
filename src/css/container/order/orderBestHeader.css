@@ -1,0 +1,17 @@
+.Best-header {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.Best-header img {
+  width: 85%;
+  height: 350px;
+
+  object-fit: cover;
+
+  display: block;
+  justify-content: center;
+}

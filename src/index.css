@@ -1,0 +1,57 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); */
+@import url(css/common/react_basic.css);
+@import url(css/common/reset.css);
+@import url(css/common/header.css);
+@import url(css/common/footer.css);
+@import url(css/common/slide.css);
+@import url(css/common/order_modal.css);
+@import url(css/common/map.css);
+@import url(css/common/mainscroll.css);
+
+
+@import url(css/index.css);
+@import url(css/main.css);
+@import url(css/auth/auth_login.css);
+@import url(css/auth/auth_join.css);
+
+@import url(css/container/order/orderItemDetailContainer.css);
+
+@import url(css/container/cart/cartIndexContainer.css);
+
+@import url(css/container/payment/paymentIndexContainer.css);
+@import url(css/container/payment/paymentSuccess.css);
+@import url(css/container/payment/paymentDetailContainer.css);
+@import url(css/container/payment/paymentMapModal.css);
+
+@import url(css/container/admin/admin_layout.css);
+@import url(css/container/admin/admin_header.css);
+@import url(css/container/admin/admin_left.css);
+@import url(css/container/admin/admin_modal.css);
+@import url(css/container/admin/admin_List_container.css);
+@import url(css/container/admin/admin_order_payment_container.css);
+@import url(css/container/admin/admin_order_payment_modal.css);
+@import url(css/container/admin/admin_dashboard.css);
+
+@import url(css/container/order/orderAccessories.css);
+@import url(css/container/order/orderBest.css);
+@import url(css/container/order/orderWine.css);
+@import url(css/container/order/orderWhiskey.css);
+@import url(css/container/order/orderVodka.css);
+@import url(css/container/order/orderBestHeader.css);
+
+.c-ul{
+  background-color: gainsboro ;
+  /* color: #333;  */
+  color: royalblue;
+  font-weight: bold; 
+  padding: 8px 16px; 
+  border-radius: 4px; 
+  transition: background-color 0.5s ease; 
+}
+
+@media (max-width: 450px){
+  .c-ul{
+    padding: 3px 8px; 
+  }
+  
+}

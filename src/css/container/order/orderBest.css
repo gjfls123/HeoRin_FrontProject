@@ -1,0 +1,115 @@
+.best {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.best .best-header {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.best .best-header img {
+  width: 85%;
+  height: 350px;
+
+  object-fit: cover;
+
+  display: block;
+  justify-content: center;
+}
+
+.best .best-con {
+  width: 100%;
+
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 320px);
+  gap: 45px;
+
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.best .best-con .best-item {
+  height: 320px;
+  /* width: 250px; */
+
+  border: 1px solid rgb(204, 204, 204);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.best .best-con .best-item .item-top img {
+  display: block;
+
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 0 0 5px 0;
+  transition: all 0.3s ease;
+}
+
+.best .best-con .best-item .item-top img:hover {
+  transform: scale(1.05);
+}
+
+.best .best-con .best-item .cart-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.best .best-con .best-item .cart-middle .cart-button {
+  width: 100%;
+  background-color: rgb(229, 229, 229);
+  border: none;
+  border-radius: 5px;
+  padding: 3px 0 3px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+}
+
+.best .best-con .best-item .cart-middle .cart-button:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+.best .best-con .best-item .cart-middle .cart-button img {
+  padding-right: 20px;
+}
+
+.best .best-con .best-item .item-bottom h3 {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 5px 0;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.item-bottom p {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 5px;
+}
+
+@media (max-width: 800px) {
+  .best .best-con {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

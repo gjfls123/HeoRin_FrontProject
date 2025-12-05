@@ -1,0 +1,192 @@
+.payment-detail {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #e9e9e9b7;
+}
+
+.payment-detail .payment-detail-con {
+  flex: 0 1 1000px;
+
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.payment-detail .payment-detail-con .payment-detail-top {
+  height: 130px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-detail .payment-detail-con .payment-detail-top > h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.payment-detail-con .payment-detail-list {
+  display: flex;
+  justify-content: center;
+
+  background-color: #ffffff;
+}
+
+.payment-detail-con .payment-detail-list > table {
+  width: 100%;
+}
+
+.payment-detail-con .payment-detail-list > table > th {
+  padding: 10px;
+
+  font-weight: 400;
+  background-color: #3d3d3d;
+  color: #fff;
+}
+
+.payment-detail-list > table > tr > td {
+  border-bottom: 2px solid #616161b2;
+}
+
+.payment-detail-list > table > tr > td:not(:nth-child(2)) {
+  text-align: center;
+}
+
+.payment-detail-list > table > tr > td.itemImg {
+  width: 400px;
+}
+
+.payment-detail-list > table > tr > td.itemImg .paymentItemDetail {
+  height: 150px;
+
+  padding: 20px 30px;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 10px;
+}
+
+.payment-detail-list > table > tr > td.itemImg .paymentItemDetail .img {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-detail-list > table > tr > td.itemImg .paymentItemDetail .img > img {
+  display: block;
+  height: 100%;
+}
+
+td.itemImg .paymentItemDetail > li:nth-child(2) {
+  width: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td.itemImg .paymentItemDetail > li:nth-child(3) {
+  width: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-detail-list > table > tr > td.receive > li:nth-child(1) {
+  padding-bottom: 10px;
+
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.payment-detail-list > table > tr > td.receive > li > span {
+  font-size: 14px;
+
+  /* border: 1px solid #ccc; */
+  padding: 3px 7px;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  background-color: #5e5e5e;
+  color: #fff;
+
+  transition: all 0.2s;
+
+  cursor: pointer;
+}
+
+.payment-detail-list > table > tr > td.receive > li > span:hover {
+  background-color: #161616d5;
+}
+
+.payment-detail-list > table > tr > td.situation {
+  font-weight: 500;
+}
+
+.paymentItemDetail .detail-con {
+  display: flex;
+  gap: 5px;
+}
+
+.paymentItemDetail .titelPrice .detail-con > li:nth-child(3) {
+  font-weight: 500;
+}
+
+.paymentItemDetail .titelPrice {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.paymentItemDetail .titelPrice > li {
+  font-size: 20px;
+}
+
+@media (max-width: 450px) {
+  .payment-detail-con .payment-detail-list > table {
+    table-layout: fixed;
+    width: 100%;
+
+    font-size: 12px;
+  }
+
+  .payment-detail-con .payment-detail-list > table > th:nth-child(2) {
+    width: 100px;
+  }
+
+  .payment-detail-list > table > tr > td.itemImg .paymentItemDetail {
+    display: flex;
+    flex-direction: column;
+
+    padding: 5px;
+  }
+
+  .paymentItemDetail .titelPrice {
+    font-size: 12px;
+  }
+
+  .titelPrice .detail-con {
+    gap: 0;
+  }
+
+  .paymentItemDetail .titelPrice > li {
+    font-size: 12px;
+  }
+}

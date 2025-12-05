@@ -1,0 +1,140 @@
+.admin-header,
+.admin-list {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.admin-list {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.admin-list .admin-list-con {
+  flex: 0 1 1600px;
+  min-height: 519px;
+
+  /* background-color: antiquewhite; */
+  
+  
+}
+
+.admin-list .admin-list-con .h2-con {
+  width: 100%;
+  height: 61px;
+  background-color: rgb(191, 193, 193);
+  font-size: 20px;
+  padding: 1rem;
+  box-sizing: border-box;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin-list .admin-list-con .h2-con .h2-con1 h2 {
+  font-size: 20px;
+}
+.admin-list .admin-list-con .h2-con .h2-con2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-sizing: border-box;
+}
+.admin-list .admin-list-con .h2-con button,select {
+  cursor: pointer;
+}
+
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  
+}
+td{
+  height: 60px;
+}
+td img{
+  /* width: 50px; */
+  height: 50px;
+}
+.admin-list .admin-list-con table {
+  table-layout: fixed;
+  width: 100%;
+  /* height: 600px; */
+  
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.admin-list .admin-list-con table th {
+  
+  background-color: #cccccc;
+  
+  
+  padding: 0.5vw;
+}
+
+.admin-list .admin-list-con table td {
+  
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  
+  text-align: center;
+  
+  /* padding: 0.5vw; */
+}
+.admin-list .admin-list-con .paging{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.admin-list .admin-list-con .paging button{
+  padding: 2px 4px;
+  border: 0;
+  background-color: #fff;
+  
+  font-size: 16px;
+  cursor: pointer;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  .admin-list {
+    font-size: 10px;
+    padding: 6px;     
+    
+  }
+  .admin-list .admin-list-con .h2-con{
+    align-items: center;
+    padding: 0.5rem;    
+    box-sizing: border-box;
+  }
+  .admin-list .admin-list-con .h2-con .h2-con1 h2{
+    font-size: 11px;
+    
+  }
+  
+  .admin-list .admin-list-con .paging button{
+    font-size: 11px;
+  }
+  td img{
+    width: 50px;
+  }
+}

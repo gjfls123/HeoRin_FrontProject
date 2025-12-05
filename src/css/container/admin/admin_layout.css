@@ -1,0 +1,8 @@
+.admin-left{
+  display: flex;
+  height: 100vh;
+}
+.admin-right{
+  
+  flex: 1;
+}

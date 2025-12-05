@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+/*footer*/
+
+.footer {
+  margin-top: 3%;
+  width: 100%;
+  height: auto;
+  
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
+
+.footer .footer-con {
+  /* flex: 0 1 1600px; */
+  width: 100%;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 5%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.footer .footer-con div{
+  box-sizing: border-box;
+
+}
+.footer .footer-con .f-left{
+  flex: 1;
+  text-align: center;
+  font-size: 200%;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer .footer-con .f-left{
+  padding-right: 2%;
+}
+
+.footer .footer-con .f-mid1{
+  flex: 2;
+  font-size: 80%;
+}
+.footer .footer-con .f-mid2{
+  flex: 2;
+  font-size: 80%;
+  /* padding: 0 1%; */
+}
+.footer .footer-con .f-right{
+  flex: 2;
+  font-size: 80%;
+}
+
+@media (max-width: 450px){
+  
+  .footer .footer-con{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1%;
+    border: 1px solid  rgb(68, 60, 60);
+    width: 55%;
+  }
+
+  .footer .footer-con div{
+    display: flex;
+    /* justify-content: center; */
+    padding: 2%;
+  }
+  .footer .footer-con .f-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .footer-con .f-mid1,
+  .footer .footer-con .f-mid2,
+  .footer .footer-con .f-right
+  {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    font-size: 10px;
+  }
+  .footer .footer-con .f-left{
+    font-size: 100%;
+  }
+  
+}

@@ -1,0 +1,139 @@
+.dash {
+  width: 100%;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+  box-sizing: border-box;
+
+
+}
+
+.dash .dash-con {
+  flex: 0 1 1600px;
+  min-height: 519px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dash .dash-con h2 {
+  background-color: rgb(191, 193, 193);
+  font-size: 20px;
+
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.dash .dash-con .bottoms{
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 3px;
+  box-sizing: border-box;
+}
+.dash .dash-con .bottoms .chart-bar{
+  flex: 1;
+  width: 100%;
+  height: 400px;
+  max-width: 800px;
+
+}
+.dash .dash-con .bottoms .chart-circle{
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  align-items: center;
+
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.dash .dash-con .bottoms .chart-circle span{
+  position: absolute;
+  left: 0;
+  top:0;
+}
+.dash .dash-con .bottoms .chart-circle .chart-circle-con{
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 80%;
+  height: 80%;
+  
+}
+.dash .dash-con .bottoms .chart-circle .chart-circle-con1{
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  
+  width: 80%;
+  height: 80%;
+}
+
+.graph-svg {
+  width: 100%;
+  height: 100%;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+
+@media (max-width: 450px) {
+  .dash{
+    width: 100%;
+    padding: 8px 2px;
+    box-sizing: border-box;
+  }
+  .dash .dash-con{
+    max-width: 100%;
+    flex: initial;
+  }
+  .dash .dash-con h2{
+    width: 100%;
+    font-size: 10px;
+  }
+  .dash .dash-con .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dash .dash-con .bottoms {
+    flex-direction: column;
+  }
+  
+  .dash .dash-con .top .graph-svg,
+  .dash .dash-con .bottoms .chart-bar,
+  .dash .dash-con .bottoms .chart-circle {
+    width: 100%;
+    max-width: 335px;
+    aspect-ratio: 1.1 / 0.7;
+  }
+  .dash .dash-con .bottoms .chart-circle .chart-circle-con,
+  .dash .dash-con .bottoms .chart-circle .chart-circle-con1{
+    width: 100%;
+  }
+  .dash .dash-con .bottoms .chart-circle span{
+    font-size: 7px;
+  }
+  .graph-svg {
+    width: 100%;
+    height: 100%;
+  }
+}

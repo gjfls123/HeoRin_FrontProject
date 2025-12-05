@@ -1,0 +1,343 @@
+.paymentPage {
+  width: 100%;
+  min-height: 100vh;
+
+  padding: 10px;
+  box-sizing: border-box;
+
+  background-color: #ebebeb73;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.paymentPage .paymentPage-con {
+  display: flex;
+
+  padding: 60px 80px;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  background-color: #fff;
+}
+
+.paymentPage .payment-title {
+  height: 130px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paymentPage .payment-title h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.paymentPage .paymentPage-con .payment-detail-con {
+  /* position: relative; */
+
+  display: flex;
+  justify-content: space-between;
+
+  /* border: 1px solid #000; */
+  box-sizing: border-box;
+
+  gap: 50px;
+}
+
+.payment-detail-con .payment-detail-left-con {
+  display: flex;
+  flex-direction: column;
+
+  gap: 60px;
+}
+
+.paymentPage .paymentPage-con .paymentPage-top {
+  width: 300px;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  /* border: 1px solid #000; */
+  box-sizing: border-box;
+
+  gap: 20px;
+
+  /* background-color: #ccc; */
+}
+
+.paymentPage .paymentPage-con .paymentPage-top > span:nth-child(1) {
+  width: 300px;
+
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.paymentPage-top .payment-receive-method > span.pay-visit-span {
+  padding-right: 30px;
+}
+
+.paymentPage-con .paymentPage-top .pay-visit > select {
+  width: 80px;
+  height: 30px;
+
+  border: 0;
+  border-radius: 5px;
+
+  text-align: center;
+
+  background-color: #dadadac4;
+}
+
+.paymentPage-top .payment-receive-method {
+  display: flex;
+}
+
+.paymentPage-top .payment-receive-method > span:nth-child(1) {
+  display: block;
+  width: 100px;
+
+  /* border: 1px solid #ccc; */
+}
+
+.paymentPage-top .pay-userName {
+  display: flex;
+}
+
+.paymentPage-top .pay-userName > span:nth-child(1) {
+  width: 100px;
+  display: flex;
+}
+
+.paymentPage-top .pay-userAddress {
+  display: flex;
+}
+
+.paymentPage-top .pay-userAddress > span:nth-child(1) {
+  width: 100px;
+  display: flex;
+}
+
+.payment-cart .payment-cart-detail {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.payment-cart .payment-cart-detail > span {
+  width: 300px;
+
+  padding: 10px 0;
+  /* border-bottom: 1px solid #ccc; */
+  box-sizing: border-box;
+
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.payment-cart .payment-cart-detail > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.payment-cart .payment-cart-detail > ul .payment-itemList {
+  display: flex;
+
+  padding: 10px 20px;
+  border: 1px solid #cccccc91;
+  border-radius: 5px;
+  box-sizing: border-box;
+
+  gap: 10px;
+}
+
+.payment-cart .payment-cart-detail > ul .payment-itemList > li {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-cart
+  .payment-cart-detail
+  > ul
+  .payment-itemList
+  > li.paymentCart-Name {
+  width: 180px;
+}
+
+.payment-cart .payment-cart-detail > ul .payment-itemList > li.paymentCart-Img {
+  width: 80px;
+  height: 80px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-cart .payment-cart-detail > ul .payment-itemList > li img {
+  display: block;
+  height: 80%;
+}
+
+.payment-detail-con .payment-side {
+  position: sticky;
+  top: 200px;
+
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px #e2e2e2;
+
+  background-color: #e9e9e95b;
+
+  gap: 30px;
+}
+
+.payment-detail-con .payment-side .side-title {
+  padding: 5px 0;
+
+  box-sizing: border-box;
+}
+
+.payment-detail-con .payment-side .side-title > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.payment-side .payment-totalAmount {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-side .payment-totalAmount > span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.payment-side .payment-delivery-con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-side .payment-delivery-con > span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.payment-side .paymethod-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-side .paymethod-con > select {
+  width: 120px;
+  height: 30px;
+  text-align: center;
+
+  border: 0;
+  border-radius: 5px;
+  background-color: #dadadac4;
+}
+
+.payment-side .payment-button {
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+
+.payment-side .payment-button > button {
+  width: 280px;
+  height: 60px;
+
+  border: 0;
+  border-radius: 10px;
+  background-color: #363636;
+  color: #fff;
+
+  font-size: 19px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.payment-side .payment-button > button:hover {
+  background-color: #000000;
+}
+
+@media (max-width: 450px) {
+  .paymentPage .paymentPage-con {
+    width: 340px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paymentPage .paymentPage-con .paymentPage-top {
+    width: 280px;
+  }
+
+  .paymentPage .paymentPage-con .paymentPage-top > span:nth-child(1) {
+    width: 280px;
+  }
+
+  .paymentPage .paymentPage-con .payment-detail-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payment-detail-con .payment-detail-left-con {
+    width: 280px;
+  }
+  .payment-detail-con .payment-side {
+    width: 300px;
+  }
+
+  .payment-side .payment-button > button {
+    width: 260px;
+  }
+
+  .payment-cart .payment-cart-detail > ul .payment-itemList {
+    display: flex;
+    gap: 0;
+
+    width: 280px;
+    padding: 10px;
+  }
+
+  .payment-cart
+    .payment-cart-detail
+    > ul
+    .payment-itemList
+    > li.paymentCart-Name {
+    width: 60px;
+  }
+}

@@ -1,0 +1,78 @@
+.auth-login {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background: url("/public/images/background/background3.jpg") no-repeat 50% /
+    cover; */
+}
+
+.auth-login-con {
+  /* border: 1px solid; */
+  box-sizing: border-box;
+  border-radius: 20px;
+
+  background-color: rgb(255, 255, 255);
+  padding: 1.2vh;
+  /* opacity: 0.95; */
+}
+
+.auth-login-con h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  padding: 0 0 5px 0;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.auth-login-con ul {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 0 0;
+  gap: 15px;
+}
+
+.auth-login-con ul > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+
+  gap: 15px;
+}
+
+.auth-login-con ul > li input {
+  height: 50px;
+  width: 300px;
+  padding: 0 5px 0 5px;
+}
+
+.auth-login-con ul > li button {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+
+  border-radius: 5px;
+
+  padding: 1.5px;
+  height: 50px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.auth-login-con ul > li .login-button button {
+  background: rgb(150, 150, 150);
+  color: #ffffff;
+}
+
+.auth-login-con ul > li .login-button button:hover {
+  background-color: #797979;
+}
+
+.auth-login-con ul > li .join-button button {
+  background: #ffffff;
+  border: 1px solid rgb(150, 150, 150);
+}

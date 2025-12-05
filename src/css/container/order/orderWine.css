@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.WinePage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.WinePage .Wine-header {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.WinePage .Wine-header img {
+  width: 85%;
+  height: 350px;
+
+  object-fit: cover;
+
+  display: block;
+  justify-content: center;
+}
+
+.WinePage .WinePage-con {
+  width: 100%;
+
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(2, 320px);
+  gap: 45px;
+
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.WinePage .WinePage-con .Wine-item {
+  height: 320px;
+  /* width: 250px; */
+
+  border: 1px solid rgb(204, 204, 204);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.WinePage .WinePage-con .Wine-item .item-top img {
+  display: block;
+
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  padding: 0 0 5px 0;
+  transition: all 0.3s ease;
+}
+
+.WinePage .WinePage-con .Wine-item .item-top img:hover {
+  transform: scale(1.05);
+}
+
+.WinePage .WinePage-con .Wine-item .cart-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.WinePage .WinePage-con .Wine-item .cart-middle .cart-button {
+  width: 100%;
+  background-color: rgb(229, 229, 229);
+  border: none;
+  border-radius: 5px;
+  padding: 3px 0 3px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+}
+
+.WinePage .WinePage-con .Wine-item .cart-middle .cart-button:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+.WinePage .WinePage-con .Wine-item .cart-middle .cart-button img {
+  padding-right: 20px;
+}
+
+.WinePage .WinePage-con .Wine-item .item-bottom h3 {
+  /* display: flex; */
+  /* justify-content: center; */
+  padding: 10px 0 5px 0;
+
+  box-sizing: border-box;
+  text-align: center;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+
+  /* overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; */
+}
+
+.item-bottom p {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 5px;
+}
+
+@media (max-width: 450px) {
+  .WinePage .WinePage-con {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .WinePage .WinePage-con .Wine-item .item-bottom h3 {
+    width: 150px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
