@@ -1,15 +1,33 @@
-# 🥂 LUXIP - 프리미엄 주류 스마트 오더 사이트
+<h1 id="intro">🥂 LUXIP - 프리미엄 주류 스마트 오더 사이트</h1>
 
 > **LUXIP**은 고급스러운 주류를 스마트하게 주문하고,  
 > 오프라인 매장 탐색부터 결제까지 한 번에 처리할 수 있는 술 판매 플랫폼입니다. 🍷✨
 > 
-> **해외 시장 대비 열악함, 오프라인 구매 한계, 온라인 플랫폼 부재. 시장의 빈틈을 **LUXIP**이 채우겠습니다** 😊
+> **해외 시장 대비 열악함, 오프라인 구매 한계, 온라인 플랫폼 부재. 시장의 빈틈을 LUXIP이 채우겠습니다** 😊
 > 
 > 제작기간 2025.06.13 ~ 2025.07.15 
 
+[프로젝트 소개](#-luxip---프리미엄-주류-스마트-오더-사이트)[사용 기술 스택](#️-사용-기술-스택)[팀원 & 담당 역할](#-팀원--담당-역할)[프로젝트 구조](#-프로젝트-구조)[주요 기능](#️-주요-기능)
+- [화면 흐름도](#-화면-흐름도)
+- [관리자 기능](#-관리자--공통-기능-허린)
 ---
 
-## 🛠️ 사용 기술 스택
+## 📌 목차
+- [프로젝트 소개](#intro)
+- [사용 기술 스택](#stack)
+- [팀원 & 담당 역할](#roles)
+- [프로젝트 구조](#structure)
+- [주요 기능](#features)
+- [화면 흐름도](#flow)
+- [관리자 / 공통 기능](#admin)
+- [주문 / 결제 기능](#order)
+- [사용자 기능](#user)
+
+
+
+
+<h2 id="stack">🛠️ 사용 기술 스택</h2>
+
 
 <table>
   <tr>  
@@ -21,6 +39,7 @@
   </tr>
   <tr>
     <td>
+      <!-- Frontend -->
       <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> 
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> 
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> 
@@ -31,15 +50,19 @@
       <img src="https://img.shields.io/badge/Redux%20Toolkit-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
       <img src="https://img.shields.io/badge/React--Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
     </td>
+     <!-- Backend -->
     <td>
       <img src="https://img.shields.io/badge/Backend-None-lightgray?style=for-the-badge"/> <br>(프론트 중심 SPA)
     </td>
+     <!-- DB -->
     <td>
       <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white"/> <br>JSON 파일 기반 데이터 관리
     </td>
+     <!-- Kakao -->
     <td>
       <img src="https://img.shields.io/badge/Kakao%20Map%20API-FFCD00?style=for-the-badge&logo=kakao&logoColor=black"/>
     </td>
+     <!-- Git -->
     <td>
       <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> 
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -155,7 +178,7 @@ FrontProject     <br>
         빌드 산출물 제외: build, dist<br>
         환경 변수 보호: .env 파일 제외<br>
         IDE 설정 파일 제외: .vscode, .idea<br>
-        YML 설정 파일 제외: .yml
+        YML 설정 파일 제외: application.yml
       </td>
     </tr>
   </table>
@@ -192,10 +215,10 @@ FrontProject     <br>
         <th>📝 로그인 / 회원가입</th>
       </tr>
       <tr>
-        <td> <img src="https://github.com/user-attachments/assets/2cb1865b-7fa7-473c-a079-e55cebd0b560" /></td>
-        <td> <img src="https://github.com/user-attachments/assets/bd6355e6-4784-48aa-b097-1c5fd1fccc69" /></td>
+        <td> <img src="https://github.com/user-attachments/assets/a16bf58b-4011-4a30-b837-94d921695ebd" /></td>
+        <td> <img src="https://github.com/user-attachments/assets/bc255485-b702-4309-bda8-091a4b73a41e" /></td>
         <td> <img src="https://github.com/user-attachments/assets/7cbab753-586d-4aa7-9951-fe3876bc647a" /></td>
-        <td> <img src="https://github.com/user-attachments/assets/a5bf6bb4-d7dc-44a0-aed3-afbbc3f8e8e9" /></td>
+        <td> <img src="https://github.com/user-attachments/assets/596d4160-8e10-4946-bd30-bad6fb62cfb4" /></td>
       </tr>
     </table>
   </details>
