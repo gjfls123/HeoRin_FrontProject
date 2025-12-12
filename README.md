@@ -173,7 +173,7 @@ FrontProject     <br>
 
 ### 💳 주문 / 결제 기능 (박XX)
 <details>
-    <summary>🧺 장바구니 기능 & 📦 주문 관리 페이지 & 💳 결제 처리 시스템</summary>
+    <summary>🔍 자세히 보기</summary>
     <table>
       <tr>
         <th>🧺 장바구니 기능</th>
@@ -193,7 +193,7 @@ FrontProject     <br>
 ### 🛍️ 사용자 기능 (이XX)
 
 <details>
-    <summary>📦 아이템 목록 페이지 & 🔍 아이템 상세 페이지 & 💬 아이템 댓글, 리뷰 & 📝 로그인 / 회원가입</summary>
+    <summary>🔍 자세히 보기</summary>
     <table>
       <tr>
         <th>📦 아이템 목록 페이지</th>
