@@ -17,7 +17,7 @@ const CommentSection = ({ isLoggedIn, itemId }) => {
     const fetchaxiosComment = async () => {
       try {
         const res = await axios.get(
-          `http://192.168.23.231:3001/comments?itemId=${itemId}`
+          `YOUR_DB_SERVER_URL/comments?itemId=${itemId}`
         );
         setComments(res.data);
       } catch (err) {
@@ -32,7 +32,7 @@ const CommentSection = ({ isLoggedIn, itemId }) => {
       return;
     }
     try {
-      await axios.delete(`http://192.168.23.231:3001/comments/${commentId}`);
+      await axios.delete(`YOUR_DB_SERVER_URL/comments/${commentId}`);
       setComments((prev) => prev.filter((c) => c.id !== commentId));
     } catch (err) {
       console.error("삭제실패:", err);
@@ -59,7 +59,7 @@ const CommentSection = ({ isLoggedIn, itemId }) => {
 
     try {
       const res = await axios.post(
-        "http://192.168.23.231:3001/comments",
+        "YOUR_DB_SERVER_URL/comments",
         newComment
       );
       setComments((prev) => [...prev, res.data]);

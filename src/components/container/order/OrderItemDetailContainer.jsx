@@ -30,10 +30,10 @@ const OrderItemDetailContainer = () => {
 
   // const ClickView = async (id) => {
   //   try{
-  //     const res = await axios.get(`http://192.168.23.231:3001/items/${id}`)
+  //     const res = await axios.get(`YOUR_DB_SERVER_URL/items/${id}`)
   //   }
   // }
-  const detailUrl = `http://192.168.23.231:3001/items/${userId}`;
+  const detailUrl = `YOUR_DB_SERVER_URL/items/${userId}`;
   useEffect(() => {
     const itemDetailFn = async () => {
       try {

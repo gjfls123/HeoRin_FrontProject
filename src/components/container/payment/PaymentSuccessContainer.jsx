@@ -29,7 +29,7 @@ const PaymentSuccessContainer = () => {
   console.log(payment);
 
   useEffect(() => {
-    const paymentUrl = "http://192.168.23.231:3001/payment";
+    const paymentUrl = "YOUR_DB_SERVER_URL/payment";
     const paymentPostFn = async () => {
       if (!payment[0]) return;
       try {

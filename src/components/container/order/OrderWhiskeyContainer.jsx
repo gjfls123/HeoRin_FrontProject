@@ -5,7 +5,7 @@ import { addCart } from "../../../slice/cartSlice";
 import { useDispatch } from "react-redux";
 import Modal from "react-modal";
 
-const itemUrl = "http://192.168.23.231:3001/items";
+const itemUrl = "YOUR_DB_SERVER_URL/items";
 
 const OrderWhiskeyContainer = () => {
   const goCart = () => {
