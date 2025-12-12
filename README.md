@@ -171,7 +171,7 @@ FrontProject     <br>
   </table>
 </details>
 
-### 💳 주문 / 결제 기능 (박XX)
+#### 💳 주문 / 결제 기능 (박XX)
 <details>
     <summary>🔍 자세히 보기</summary>
     <table>
@@ -190,7 +190,7 @@ FrontProject     <br>
 
 
 
-### 🛍️ 사용자 기능 (이XX)
+#### 🛍️ 사용자 기능 (이XX)
 
 <details>
     <summary>🔍 자세히 보기</summary>
