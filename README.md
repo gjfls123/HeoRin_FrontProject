@@ -97,8 +97,9 @@ FrontProject     <br>
 
 
 ### 🧑‍💼 **관리자 / 공통 기능 (허린)**
-<details>
-    <summary>🖼️ 관리자 전용 레이아웃</summary>
+
+- 🖼️ 관리자 전용 레이아웃
+  
     <table>
       <tr>
         <th>👥 회원 관리</th>
@@ -125,10 +126,9 @@ FrontProject     <br>
         </td>
       </tr>
   </table>
-</details>
   
-<details>
-    <summary> 📄 메인 페이지 & 🗺️ 카카오 API 기반 매장 지도 연동</summary>
+ - 📄 메인 페이지 & 🗺️ 카카오 API 기반 매장 지도 연동
+   
     <table>
       <tr>
         <th>🎞️ 자동 슬라이드</th>
@@ -139,10 +139,10 @@ FrontProject     <br>
         <td><img src="https://github.com/user-attachments/assets/3840067f-d7dd-44e5-b4a2-b556924769e2" /></td>
       </tr>
     </table>
-</details>
+
   
-<details>
-    <summary>🧾 GitHub 버전 관리 총괄</summary>
+
+ - 🧾 GitHub 버전 관리 총괄
    <table>
     <tr>
       <th>📌 GitHub 관리</th>
@@ -169,7 +169,6 @@ FrontProject     <br>
       </td>
     </tr>
   </table>
-</details>
 
 <br/>
 
