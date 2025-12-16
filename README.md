@@ -9,7 +9,7 @@
 
 ---
 
-| [프로젝트 소개](#-luxip---프리미엄-주류-스마트-오더-사이트) | [사용 기술 스택](#️-사용-기술-스택) | [팀원 & 담당 역할](#-팀원--담당-역할) | [프로젝트 구조](#-프로젝트-구조) | [주요 기능](#️-주요-기능) | [화면 흐름도](#-화면-흐름도) | [기능 개발 (허린)](#%E2%80%8D-관리자--공통-기능-허린) |
+| [프로젝트 소개](#-luxip---프리미엄-주류-스마트-오더-사이트) | [사용 기술 스택](#️-사용-기술-스택) | [팀원 & 담당 역할](#-팀원--담당-역할) | [프로젝트 구조 & 화면 흐름도](#-프로젝트-구조---화면-흐름도) | [주요 기능](#️-주요-기능) | [기능 개발 (허린)](#%E2%80%8D-관리자--공통-기능-허린) | [프로젝트 후기](#-프로젝트-후기) |
 
 ---
 
@@ -69,32 +69,43 @@
 | 🧑‍🤝‍🧑 공통 기능 | 반응형 웹 디자인 적용  |
 ---
 
-## 📂 프로젝트 구조
+## 📂 프로젝트 구조 & 🔀 화면 흐름도
 
-FrontProject     <br>
- ┣ public               <br>
- ┣ src                  <br>
- ┃ ┣ apis/              <br>
- ┃ ┃ ┣ commonApis.jsx   <br>
- ┃ ┃ ┗ shopPos.js       <br>
- ┃ ┣ components/        <br>
- ┃ ┃ ┣ common/          <br>
- ┃ ┃ ┗ container/       <br>
- ┃ ┣ pages/             <br>
- ┃ ┣ router/            <br>
- ┃ ┣ slice/             <br>
- ┃ ┗ store/             <br>
- ┣ package.json         <br>
- ┗ README.md            <br>
+<table>
+  <tr>
+    <th>📂 프로젝트 구조</th>
+    <th>🔀 화면 흐름도</th>  
+  </tr>
+  <tr>
+    <td>
+      FrontProject     <br>
+       ┣ public               <br>
+       ┣ src                  <br>
+       ┃ ┣ apis/              <br>
+       ┃ ┃ ┣ commonApis.jsx   <br>
+       ┃ ┃ ┗ shopPos.js       <br>
+       ┃ ┣ components/        <br>
+       ┃ ┃ ┣ common/          <br>
+       ┃ ┃ ┗ container/       <br>
+       ┃ ┣ pages/             <br>
+       ┃ ┣ router/            <br>
+       ┃ ┣ slice/             <br>
+       ┃ ┗ store/             <br>
+       ┣ package.json         <br>
+       ┗ README.md            <br>
+    </td>
+    <td>
+      <img width="626" height="311" alt="image" src="https://github.com/user-attachments/assets/da711c5c-7db4-4266-8a67-0752c83ce1f9" />
+    </td>
+  </tr>
+  
+</table>
+
 
 ---
 
 
 ## ⚙️ 주요 기능
-
-### 🔀 화면 흐름도
-<img width="626" height="311" alt="image" src="https://github.com/user-attachments/assets/da711c5c-7db4-4266-8a67-0752c83ce1f9" />
-
 
 ### 🧑‍💼 **관리자 / 공통 기능 (허린)**
 
@@ -214,3 +225,8 @@ FrontProject     <br>
   
 
 ---
+
+## 🧐 프로젝트 후기
+대학교 때보다 기간이 짧아 일에 몰두하는 느낌이 좋았고,  <br/>
+협업하면서 “이 부분은 이렇게 하는 게 좋겠다”와 같이 서로 소통하며 산출물을 만들어 가는 과정이 실제 회사에서 일하는 것 같아 재미있었다.  <br/>
+또한 프로젝트를 통해 본인이 성장하는 과정 자체를 즐길 수 있었다.
